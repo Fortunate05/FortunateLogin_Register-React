@@ -1,5 +1,7 @@
 import React from 'react';
 import Register  from '../Pages/Register.css'
+import Header from '../Components/Header';
+
 import {
   MDBBtn,
   MDBContainer,
@@ -12,12 +14,12 @@ import {
   MDBCheckbox
 }
 from 'mdb-react-ui-kit';
-import Header from '../Components/Header';
+
 
 function Register() {
   return (
     <Form>
-        <Header/>
+        <div><Header/></div>
     
     <MDBContainer fluid className='my-5'>
 
