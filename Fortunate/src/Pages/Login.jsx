@@ -1,8 +1,9 @@
 import React from 'react'
+import Header from '../../../Ntwanano/src/Components/Header'
 
 function Login() {
   return (
-    <div>Login</div>
+    <div><Header/></div>
   )
 }
 
