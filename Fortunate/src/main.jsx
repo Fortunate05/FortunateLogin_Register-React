@@ -1,7 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+
 import './index.css'
 import Home from './Pages/Home'
+import Register from './Pages/Register';
+import Login from '/Pages/Login';
 
 
 import {
@@ -9,22 +12,21 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import Register from './Pages/Register';
-import Login from '/Pages/Login';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
 
   {
-    path: "/",
-    element: <Login />,
+    path: "/Login",
+    element: <Login/>,
   },
   {
-    path: "/",
-    element: <Register />,
+    path: "/Register",
+    element: <Register/>,
   },
 ]);
 
