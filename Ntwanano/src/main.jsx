@@ -5,6 +5,8 @@ import './index.css'
 import Home from './Pages/Home'
 import Login from './Pages/Login'
 import Register from './Pages/Register'
+import ErrorPage from './Components/error-page';
+
 
 import {
   createBrowserRouter,
@@ -14,8 +16,9 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Home",
     element: <Home />,
+    errorElement: <ErrorPage />
     
   },
   {
