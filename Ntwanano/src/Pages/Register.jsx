@@ -2,10 +2,12 @@ import React from 'react'
 import Header from '../Components/Header'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import '../Pages/Register.css'
 
 function Register() {
   return (
     <div><Header />
+    <div className='form'>
       <Form>
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -28,6 +30,7 @@ function Register() {
           Submit
         </Button>
       </Form>
+      </div>
     </div>
   )
 }
